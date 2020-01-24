@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNg Demo Automation Suite" duration-ms="149184" started-at="2020-01-09T08:41:56Z" finished-at="2020-01-09T08:44:25Z">
+    <groups>
+      <group name="gmail">
+        <method signature="GoogleTest.Search()[pri:1, instance:testNGdemo.GoogleTest@482f8f11]" name="Search" class="testNGdemo.GoogleTest"/>
+        <method signature="GoogleTest.emailtest()[pri:2, instance:testNGdemo.GoogleTest@482f8f11]" name="emailtest" class="testNGdemo.GoogleTest"/>
+      </group> <!-- gmail -->
+      <group name="print">
+        <method signature="GoogleTest.login()[pri:3, instance:testNGdemo.GoogleTest@482f8f11]" name="login" class="testNGdemo.GoogleTest"/>
+      </group> <!-- print -->
+    </groups>
+    <test name="Together test case Execution Test" duration-ms="149184" started-at="2020-01-09T08:41:56Z" finished-at="2020-01-09T08:44:25Z">
+      <class name="testNGdemo.GoogleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGdemo.GoogleTest@482f8f11]" name="setUp" is-config="true" duration-ms="22469" started-at="2020-01-09T08:43:27Z" finished-at="2020-01-09T08:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Search()[pri:1, instance:testNGdemo.GoogleTest@482f8f11]" name="Search" duration-ms="295" started-at="2020-01-09T08:43:50Z" finished-at="2020-01-09T08:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGdemo.GoogleTest@482f8f11]" name="tearDown" is-config="true" duration-ms="3236" started-at="2020-01-09T08:43:50Z" finished-at="2020-01-09T08:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGdemo.GoogleTest@482f8f11]" name="setUp" is-config="true" duration-ms="14641" started-at="2020-01-09T08:43:53Z" finished-at="2020-01-09T08:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emailtest()[pri:2, instance:testNGdemo.GoogleTest@482f8f11]" name="emailtest" duration-ms="213" started-at="2020-01-09T08:44:08Z" finished-at="2020-01-09T08:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailtest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGdemo.GoogleTest@482f8f11]" name="tearDown" is-config="true" duration-ms="1212" started-at="2020-01-09T08:44:08Z" finished-at="2020-01-09T08:44:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGdemo.GoogleTest@482f8f11]" name="setUp" is-config="true" duration-ms="14594" started-at="2020-01-09T08:44:09Z" finished-at="2020-01-09T08:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:3, instance:testNGdemo.GoogleTest@482f8f11]" name="login" duration-ms="2" started-at="2020-01-09T08:44:24Z" finished-at="2020-01-09T08:44:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGdemo.GoogleTest@482f8f11]" name="tearDown" is-config="true" duration-ms="923" started-at="2020-01-09T08:44:24Z" finished-at="2020-01-09T08:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGdemo.GoogleTest -->
+      <class name="testNGdemo.AssertTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGdemo.AssertTest@51565ec2]" name="setUp" is-config="true" duration-ms="85188" started-at="2020-01-09T08:41:56Z" finished-at="2020-01-09T08:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatetest()[pri:0, instance:testNGdemo.AssertTest@51565ec2]" name="validatetest" duration-ms="655" started-at="2020-01-09T08:43:21Z" finished-at="2020-01-09T08:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGdemo.AssertTest@51565ec2]" name="tearDown" is-config="true" duration-ms="5666" started-at="2020-01-09T08:43:22Z" finished-at="2020-01-09T08:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGdemo.AssertTest -->
+    </test> <!-- Together test case Execution Test -->
+  </suite> <!-- TestNg Demo Automation Suite -->
+</testng-results>
