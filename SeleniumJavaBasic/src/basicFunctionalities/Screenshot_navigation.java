@@ -30,7 +30,7 @@ public class Screenshot_navigation {
 		Files.copy(screnshot,new File("C:\\Drivers\\screendemo.png"));
 		
 		
-		//Screenshot
+		//Navigation
 		driver.navigate().to("https://jqueryui.com/droppable/");
 		driver.navigate().back();
 		driver.navigate().forward();
